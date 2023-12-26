@@ -9,7 +9,6 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(image2.jpg);
     background-size: cover;
     background-position: center;
     background-image: url(image2.jpg);
@@ -29,24 +28,34 @@ body{
 #spantag{
     margin-top: 20x;
 }
+
 #spantag span{
+    display: flex;
     font-family: 'DM Serif Display', serif;
-    font-size: 40px;
-    margin: 15px;
+    font-size: 35px;
+    
+    margin-left: 30px;
     
 }
+#one{
+    margin-top: 20px;
+}
 #inner{
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
 }
 #para{
     font-family: 'Preahvihear', sans-serif;
     display: inline-block;
     font-size: 12px;
     font-weight: 500;
-    padding-left: 10px;
-    padding-top: 30px;
+    /* padding-left: 5px; */
+    padding-top: 25px;
+    
 }
 
 #nextbtn{
@@ -55,7 +64,8 @@ body{
     align-items: center;
     height: 50px;
     color: #00a037;
-    margin-left: 60px;
+    margin-top: 20px;
+    margin-left: 50px;
     background: #ebeef1;
     cursor: pointer;
     display: inline-block;
