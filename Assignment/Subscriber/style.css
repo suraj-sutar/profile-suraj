@@ -41,8 +41,9 @@ hr {
   margin: 20px 15px;
   font-family: "Roboto", sans-serif;
   border-radius: 15px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
+  color: white;
 }
 
 .email label {
