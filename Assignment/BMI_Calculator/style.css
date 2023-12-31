@@ -29,7 +29,7 @@ body {
   justify-content: center;
   margin: 20px;
   border-radius: 10px;
-  box-shadow: 20px 20px 15px -1px rgba(10, 99, 169, 0.377);
+  box-shadow: 42px 36px 20px -1px rgba(10, 99, 169, 0.377);
 }
 
 .container h1 {
@@ -59,18 +59,20 @@ body {
 .values .heights {
   border: 0.2px solid rgba(138, 134, 134, 0.637);
   margin: 10px 20px;
+  border: none;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px -1px rgba(10, 100, 169, 0.377),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.75);
+  box-shadow: 15px 15px 20px -1px rgba(10, 100, 169, 0.377),
+    -15px -15px 20px -1px rgba(255, 255, 255, 0.849);
   background-color: #ebeef1;
 }
 
 .values .weight {
   border: 0.2px solid rgba(138, 134, 134, 0.637);
   margin: 10px 20px;
+  border: none;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px -1px rgba(10, 100, 169, 0.377),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.75);
+  box-shadow: 15px 15px 20px -1px rgba(10, 100, 169, 0.377),
+    -15px -15px 20px -1px rgba(255, 255, 255, 0.849);
   background-color: #ebeef1;
 }
 
@@ -130,16 +132,16 @@ body {
 
 .calBtn button {
   width: 100%;
-  height: 30px;
-  margin: 10px 20px;
+  height: 35px;
+  margin: 10px 45px;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 2px;
   border: none;
   outline: none;
-  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.377),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.75);
+  box-shadow: 10px 10px 20px -1px rgba(10, 100, 169, 0.377),
+    -10px -10px 20px -1px rgba(255, 255, 255, 0.849);
   background-color: #ebeef1;
   border-radius: 10px;
 }
@@ -152,8 +154,8 @@ body {
 
 .resetBtn button {
   width: 100%;
-  height: 30px;
-  margin: 30px 20px;
+  height: 35px;
+  margin: 30px 45px;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -161,7 +163,7 @@ body {
   border: none;
   outline: none;
   background-color: #ebeef1;
-  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.377),
-    -10px -10px 10px -1px rgba(255, 255, 255, 0.75);
+  box-shadow: 10px 10px 20px -1px rgba(10, 100, 169, 0.377),
+    -10px -10px 20px -1px rgba(255, 255, 255, 0.849);
   border-radius: 10px;
 }
